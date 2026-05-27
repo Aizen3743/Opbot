@@ -10,8 +10,8 @@ import requests
 from telegram import Bot
 
 DB_PATH = os.getenv("DB_PATH", "bot.db")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8915702735:AAF5XIqDqchFbjSmB9gAKCHmdAaNipqKECM")
+OWNER_ID = int(os.getenv("OWNER_ID", "8796221224"))
 POLL_SECONDS = int(os.getenv("NOTIFIER_POLL_SECONDS", "30"))
 
 # Watch addresses (add your real wallet addresses in env)
