@@ -16,11 +16,11 @@ POLL_SECONDS = int(os.getenv("NOTIFIER_POLL_SECONDS", "30"))
 
 # Watch addresses (add your real wallet addresses in env)
 WATCH: Dict[str, Dict[str, str]] = {
-    "USDT_TRC20": {"network": "TRON", "address": os.getenv("WATCH_USDT_TRON", "")},
-    "USDT_BEP20": {"network": "BSC", "address": os.getenv("WATCH_USDT_BSC", "")},
-    "USDT_ERC20": {"network": "ETHEREUM", "address": os.getenv("WATCH_USDT_ETH", "")},
-    "USDC_SOL": {"network": "SOLANA", "address": os.getenv("WATCH_USDC_SOL", "")},
-    "BTC": {"network": "BITCOIN", "address": os.getenv("WATCH_BTC", "")},
+    "USDT_TRC20": {"network": "TRON", "address": os.getenv("WATCH_USDT_TRON", "TUGany2B2ZyTEd3zpf6A6NTdiFaQpPL8qb")},
+    "USDT_BEP20": {"network": "BSC", "address": os.getenv("WATCH_USDT_BSC", "0xdbaa89c688b7a84145a5adcc5c2b7cc62bf10181")},
+    "USDT_ERC20": {"network": "ETHEREUM", "address": os.getenv("WATCH_USDT_ETH", "0xdbaa89c688b7a84145a5adcc5c2b7cc62bf10181")},
+    "USDC_SOL": {"network": "SOLANA", "address": os.getenv("WATCH_USDC_SOL", "EKmcFRMEsx5faXr1Pjz119sR7MJs2yo69v6uHRoMCmJs")},
+    "BTC": {"network": "BITCOIN", "address": os.getenv("WATCH_BTC", "bc1qlteerv5krqw3mrn5fzvpqwukavvn0mdnzn85j2")},
 }
 
 
