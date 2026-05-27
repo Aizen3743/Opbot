@@ -6,7 +6,7 @@ from typing import Optional
 import requests
 
 DB_PATH = os.getenv("DB_PATH", "bot.db")
-OCR_SPACE_API_KEY = os.getenv("OCR_SPACE_API_KEY", "")
+OCR_SPACE_API_KEY = os.getenv("OCR_SPACE_API_KEY", "K82601088888957")
 
 
 def db() -> sqlite3.Connection:
