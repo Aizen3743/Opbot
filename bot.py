@@ -58,16 +58,16 @@ GAME_CURRENCY = "USD_GAME"
 
 ASSETS: Dict[str, Dict[str, str]] = {
     "USDT": {
-        "ETHEREUM": os.getenv("ADDR_USDT_ETHEREUM", "SET_USDT_ETH_ADDRESS"),
-        "TRON": os.getenv("ADDR_USDT_TRON", "SET_USDT_TRON_ADDRESS"),
-        "BSC": os.getenv("ADDR_USDT_BSC", "SET_USDT_BSC_ADDRESS"),
+        "ETHEREUM": os.getenv("ADDR_USDT_ETHEREUM", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
+        "TRON": os.getenv("ADDR_USDT_TRON", "TUGany2B2ZyTEd3zpf6A6NTdiFaQpPL8qb"),
+        "BSC": os.getenv("ADDR_USDT_BSC", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
     },
     "USDC": {
-        "ETHEREUM": os.getenv("ADDR_USDC_ETHEREUM", "SET_USDC_ETH_ADDRESS"),
-        "BSC": os.getenv("ADDR_USDC_BSC", "SET_USDC_BSC_ADDRESS"),
+        "ETHEREUM": os.getenv("ADDR_USDC_ETHEREUM", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
+        "BSC": os.getenv("ADDR_USDC_BSC", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
     },
     "BTC": {
-        "BITCOIN": os.getenv("ADDR_BTC_BITCOIN", "SET_BTC_ADDRESS"),
+        "BITCOIN": os.getenv("ADDR_BTC_BITCOIN", "bc1qlteerv5krqw3mrn5fzvpqwukavvn0mdnzn85j2"),
     },
 }
 
