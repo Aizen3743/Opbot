@@ -63,7 +63,7 @@ ASSETS: Dict[str, Dict[str, str]] = {
     "USDT": {
         "ETHEREUM": os.getenv("ADDR_USDT_ETHEREUM", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
         "TRON": os.getenv("ADDR_USDT_TRON", "TUGany2B2ZyTEd3zpf6A6NTdiFaQpPL8qb"),
-        "BSC": os.getenv("ADDR_USDT_BSC", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
+        "BSC": os.getenv("ADDR_USDT_BSC", "0xB2Cf047d110005D7FacdE31d92357072f9D1FfAC"),
         "SOLANA": os.getenv("ADDR_USDT_SOLANA", "EKmcFRMEsx5faXr1Pjz119sR7MJs2yo69v6uHRoMCmJs"),
         "POLYGON": os.getenv("ADDR_USDT_POLYGON", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
     },
