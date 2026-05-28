@@ -29,13 +29,13 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8915702735:AAF5XIqDqchFbjSmB9gAKCHmdAaNipqKECM")
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@Tfben10")
 LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "-1003849178352"))
 DB_PATH = os.getenv("DB_PATH", "bot.db")
 
-ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY", "")
-BSCSCAN_API_KEY = os.getenv("BSCSCAN_API_KEY", "")
+ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY", "IECDPGB7N3KYGRISFCNZVHU6M4YMW8JTFY")
+BSCSCAN_API_KEY = os.getenv("BSCSCAN_API_KEY", "IECDPGB7N3KYGRISFCNZVHU6M4YMW8JTFY")
 
 WALLET_NOTIFIER_ENABLED = os.getenv("WALLET_NOTIFIER_ENABLED", "1") == "1"
 WALLET_NOTIFIER_INTERVAL = int(os.getenv("NOTIFIER_POLL_SECONDS", "30"))
