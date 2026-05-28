@@ -1,4 +1,3 @@
-#bsc scan and hash 5 min m expire wla fix h isme + currency balace add
 import logging
 import os
 import sqlite3
