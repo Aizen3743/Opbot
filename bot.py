@@ -29,13 +29,13 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8915702735:AAF5XIqDqchFbjSmB9gAKCHmdAaNipqKECM")
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@Tfben10")
 LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "-1003849178352"))
 DB_PATH = os.getenv("DB_PATH", "bot.db")
 
-ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY", "")
-BSCSCAN_API_KEY = os.getenv("BSCSCAN_API_KEY", "")
+ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY", "IECDPGB7N3KYGRISFCNZVHU6M4YMW8JTFY")
+BSCSCAN_API_KEY = os.getenv("BSCSCAN_API_KEY", "IECDPGB7N3KYGRISFCNZVHU6M4YMW8JTFY")
 
 BSC_RPC_URL = os.getenv("BSC_RPC_URL", "https://bsc-rpc.publicnode.com")
 TRANSFER_TOPIC = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
@@ -63,7 +63,7 @@ ASSETS: Dict[str, Dict[str, str]] = {
     "USDT": {
         "ETHEREUM": os.getenv("ADDR_USDT_ETHEREUM", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
         "TRON": os.getenv("ADDR_USDT_TRON", "TUGany2B2ZyTEd3zpf6A6NTdiFaQpPL8qb"),
-        "BSC": os.getenv("ADDR_USDT_BSC", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
+        "BSC": os.getenv("ADDR_USDT_BSC", "0xB2Cf047d110005D7FacdE31d92357072f9D1FfAC"),
         "SOLANA": os.getenv("ADDR_USDT_SOLANA", "EKmcFRMEsx5faXr1Pjz119sR7MJs2yo69v6uHRoMCmJs"),
         "POLYGON": os.getenv("ADDR_USDT_POLYGON", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
     },
