@@ -61,12 +61,16 @@ ASSETS: Dict[str, Dict[str, str]] = {
         "ETHEREUM": os.getenv("ADDR_USDT_ETHEREUM", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
         "TRON": os.getenv("ADDR_USDT_TRON", "TUGany2B2ZyTEd3zpf6A6NTdiFaQpPL8qb"),
         "BSC": os.getenv("ADDR_USDT_BSC", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
+        "SOLANA": os.getenv("ADDR_USDT_SOLANA", "EKmcFRMEsx5faXr1Pjz119sR7MJs2yo69v6uHRoMCmJs"),
+        "POLYGON": os.getenv("ADDR_USDT_POLYGON", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181") 
     },
     "USDC": {
         "ETHEREUM": os.getenv("ADDR_USDC_ETHEREUM", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
         "BSC": os.getenv("ADDR_USDC_BSC", "0xdBaa89C688B7A84145A5aDcC5C2b7cC62bf10181"),
+        "SOLANA": os.getenv("ADDR_USDC_BSC", "EKmcFRMEsx5faXr1Pjz119sR7MJs2yo69v6uHRoMCmJs"),
+        "BASE": os.getenv("ADDR_USDC_BSC", "0xdbaa89c688b7a84145a5adcc5c2b7cc62bf10181"),
     },
-    "BTC": {
+    "BITCOIN": {
         "BITCOIN": os.getenv("ADDR_BTC_BITCOIN", "bc1qlteerv5krqw3mrn5fzvpqwukavvn0mdnzn85j2"),
     },
 }
