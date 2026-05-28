@@ -1044,7 +1044,7 @@ def fallback_get_new_payments_from_old_wallet_notifier() -> list:
             {
                 "symbol": "BTC",
                 "network": "BITCOIN",
-                "amount": str(amount_btc),
+                "amount": str(amount_btc),              ##############bsc scan not workimg
                 "tx_hash": txid,
                 "raw": tx,
             }
